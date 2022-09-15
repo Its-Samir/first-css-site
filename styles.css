@@ -154,3 +154,54 @@ hr {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+
+  @media (max-width: 590px) {
+    .mountain-img {
+        width: 70%;
+        margin: 40px auto;
+    }
+
+    .bottom-cloud {
+        left: 350px;
+        bottom: 400px;
+    }
+
+    .top-cloud {
+        right: 350px;
+        top: 100px;
+    }
+  }
+
+  @media (max-width: 498px) {
+
+    .mountain-img {
+        width: 80%;
+        margin: 60px auto;
+    }
+
+    .bottom-cloud {
+        left: 300px;
+        bottom: 400px;
+    }
+
+    .top-cloud {
+        left: 50px;
+    }
+  }
+
+  @media (max-width: 360px) {
+
+    .mountain-img {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .bottom-cloud {
+        left: 200px;
+        bottom: 400px;
+    }
+
+    .top-cloud {
+        left: 20px;
+    }
+  }
